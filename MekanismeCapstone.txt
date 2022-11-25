@@ -1,0 +1,37 @@
+Ada pemilihan tersendiri untuk ketua team (ajukan sendiri)
+Perencanaan di Notion
+Rapat besar : Tampilkan Project Kelompok
+Adain meet harian
+Team A : MVP lebih sedikit
+Team B : MVP lebih kompleks
+Peer Review : saling menilai performa team
+Ada ketua per divisi
+Buat Trello 
+Buat Git Org
+
+Undang Mentor ke Git Org : 
+f.adhiman15@gmail.com
+ilhamakbar.education@gmail.com
+
+15 November 2022
+Pertanyaan Mentor : 
+1. Soal Manage Review Admin (ntah admin apus review / admin balas review)
+2. Soal Maps (jarak antara user sama tempat)
+3. Soal Notifikasi (flutter toast), misal kalau ada notif info samting 
+Kalau ada fitur notif berarti ada Fitur untuk Manage Notif
+4. Soal Voucher (kalau sempat)
+
+Scrum : kerangka kerja untuk menyelesaikan pekerjaan
+Daily scrum adalah saat dimana tim berkumpul dan bekerja untuk memastikan perkembangan produk terus berjalan. 
+Dalam proses ini juga dikenal adanya peran scrum master. Tugas scrum master adalah untuk membantu tim agar tetap fokus.
+Product Backlog : tahapan yang berisi daftar yang harus dilakukan sesuai dengan skala prioritas perusahaan / flow yang telah ada
+Product Owner : seseorang dengan otoritas tunggal yang bertanggung jawab dalam memutuskan fitur dan fungsionalitas 
+mana yang akan dibangun dalam proses pengembangan produk, beserta urutan pembuatannya.
+
+orang yang menjembatani bisnis, IT, dan desain UX (User Experience). Ia harus memastikan bahwa tim membuat sebuah 
+produk yang memiliki nilai bisnis untuk dipasarkan ke klien atau siapa pun yang membutuhkan produk tersebut.
+
+Project Manager : pekerjaan yang memegang peran penting dalam suatu proyek, mulai dari perencanaan, eksekusi, 
+pengendalian hingga di akhir proyek. Sehingga, tugas dan tanggung jawab project manager mulai awal hingga berakhirnya proyek tersebut.
+
+Scrum Master : untuk membantu tim agar tetap fokus.

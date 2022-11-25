@@ -1,0 +1,26 @@
+Profile : 
+Edit Profile
+Booking - Booking History - Check in - Bayar (metode pembayaran yang dipilih)
+Setting
+Logout
+
+Notification :
+Sort By All
+Sort By Transaction
+Sort By Info
+
+Home :
+Notification (Tanya BE, berupa invoice atau gimana)
+Search Bar (detail : lokasi, tanggal)
+Carousel Slider (Promo)
+Populer
+Office for Rent
+Meeting Room
+Recommendation
+Detail Office
+
+Wishlist:
+Wishlist office yang ingin di book
+
+Transaction :
+Payment Detail, Method, History (mungkin)
