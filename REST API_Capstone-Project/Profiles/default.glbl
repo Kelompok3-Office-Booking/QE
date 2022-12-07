@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>200</initValue>
+      <name>status200</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>201</initValue>
+      <name>status201</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>400</initValue>
+      <name>status400</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ2IiwiZXhwIjoxNjcwNDIxNTAwLCJyb2xlcyI6InVzZXIifQ.vIr9M3GEO5F0VmDQZuEi-Sx67QbCYdhMquTGgbbDEco'</initValue>
+      <name>globalUserToken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYiLCJleHAiOjE2NzAzNDg1MDUsInJvbGVzIjoiYWRtaW4ifQ.FLKarSgma53NKfZr1kiTVgQ3xIdmwQJJr0YXij-cWAI'</initValue>
+      <name>globalAdminToken</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

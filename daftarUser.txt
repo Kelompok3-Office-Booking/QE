@@ -1,0 +1,65 @@
+Regis user :
+
+{
+    "full_name": "Elsa frozen",
+    "gender": "female",
+    "email": "elsaaja@gmail.com",
+    "password": "Elsa12345",
+    "confirmation_password": "Elsa12345"
+}
+
+{
+    "full_name": "Anna Frozen",
+    "gender": "female",
+    "email": "annaaja@gmail.com",
+    "password": "Anna12345",
+    "confirmation_password": "Anna12345"
+}
+
+{
+    "full_name": "Harry Styles",
+    "gender": "male",
+    "email": "harry@gmail.com",
+    "password": "harry12345",
+    "confirmation_password": "harry12345"
+}
+
+{
+    "full_name": "Taylor Swift",
+    "gender": "female",
+    "email": "taylor@gmail.com",
+    "password": "taylor12345",
+    "confirmation_password": "taylor12345"
+}
+
+{
+    "full_name": "Nessie Judge",
+    "gender": "female",
+    "email": "nessie@gmail.com",
+    "password": "nessie12345",
+    "confirmation_password": "nessie12345"
+}
+
+{
+    "full_name": "Sri Asih",
+    "gender": "female",
+    "email": "sriasih12345123@gmail.com",
+    "password": "Sriasih12345123",
+    "confirmation_password": "Sriasih12345123"
+}
+
+hasil : 
+{
+  "status":"success",
+  "message":"account created",
+  "data":{
+    "id":19,
+    "created_at":"06-12-2022 21:37:46",
+    "updated_at":"06-12-2022 21:37:46",
+    "deleted_at":"01-01-0001 00:00:00",
+    "full_name":"Sri Asih",
+    "gender":"female",
+    "email":"sriasih12345123@gmail.com",
+    "photo":""
+  }
+}

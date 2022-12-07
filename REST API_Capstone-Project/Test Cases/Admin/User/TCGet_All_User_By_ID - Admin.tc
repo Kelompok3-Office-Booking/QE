@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCGet_All_User_By_ID - Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcca722c-cabe-41af-8eaa-228bbd14484c</testCaseGuid>
+</TestCaseEntity>
