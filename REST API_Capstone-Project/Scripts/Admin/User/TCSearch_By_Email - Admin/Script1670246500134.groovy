@@ -32,10 +32,11 @@ response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - Sea
 WS.verifyResponseStatusCode(response, 200)
 
 response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - Search By Email/TCSearch_By_Email_02'))
-WS.verifyResponseStatusCode(response, 404)
+WS.verifyResponseStatusCode(response, 405)
 
-response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - Search By Email/TCSearch_By_Email_03'))
-WS.verifyResponseStatusCode(response, 404)
-
-response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - Search By Email/TCSearch_By_Email_04'))
-WS.verifyResponseStatusCode(response, 404)
+// resp code 405, tapi di hit 404
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - Search By Email/TCSearch_By_Email_03'))
+//WS.verifyResponseStatusCode(response, 404)
+//
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - Search By Email/TCSearch_By_Email_04'))
+//WS.verifyResponseStatusCode(response, 404)

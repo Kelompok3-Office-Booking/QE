@@ -23,7 +23,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/users/${id1}</restUrl>
+   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/users/98</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -32,20 +32,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>23</defaultValue>
-      <description></description>
-      <id>df9b1198-f195-4a96-8799-bc9ce84301ac</id>
-      <masked>false</masked>
-      <name>id1</name>
-   </variables>
-   <variables>
-      <defaultValue>21</defaultValue>
-      <description></description>
-      <id>6771acb5-66c5-4ec3-adb1-2f66af0fe843</id>
-      <masked>false</masked>
-      <name>id2</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

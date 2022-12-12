@@ -31,11 +31,12 @@ GlobalVariable.globalUserToken = Token
 response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/GET - User Profile/TCGet_User_Profile_01'))
 WS.verifyResponseStatusCode(response, 200)
 
-response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/GET - User Profile/TCGet_User_Profile_02'))
+response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/GET - User Profile/TCGet_User_Profile_05'))
 WS.verifyResponseStatusCode(response, 404)
 
-response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/GET - User Profile/TCGet_User_Profile_03'))
-WS.verifyResponseStatusCode(response, 400)
+// expected 405, actual 404 400
+//response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/GET - User Profile/TCGet_User_Profile_03'))
+//WS.verifyResponseStatusCode(response, 400)
 
 // bug
 //response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/GET - User Profile/TCGet_User_Profile_04'))

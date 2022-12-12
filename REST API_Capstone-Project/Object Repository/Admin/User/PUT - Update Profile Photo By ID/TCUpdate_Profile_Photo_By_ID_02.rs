@@ -10,17 +10,17 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;filePath&quot;: &quot;C:\\Users\\AIDA\\Downloads\\nature-gccabd0ade_1920.jpg&quot;,
-  &quot;fileSize&quot;: 573429,
-  &quot;contentType&quot;: &quot;image/jpeg&quot;
+  &quot;contentType&quot;: &quot;multipart/form-data&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
+  &quot;parameters&quot;: []
 }</httpBodyContent>
-   <httpBodyType>file</httpBodyType>
+   <httpBodyType>form-data</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>text/plain</value>
+      <value>multipart/form-data</value>
       <webElementGuid>0d150444-7aec-469a-90b7-730fb7e88247</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
@@ -35,7 +35,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/user/profile-photo/9</restUrl>
+   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/users/photo/21</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

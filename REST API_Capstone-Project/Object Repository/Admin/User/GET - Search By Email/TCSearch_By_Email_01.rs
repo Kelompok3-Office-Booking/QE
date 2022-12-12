@@ -33,7 +33,7 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'nessie@gmail.com'</defaultValue>
+      <defaultValue>'selena9@gmail.com'</defaultValue>
       <description></description>
       <id>572ba21e-0722-4034-884f-722c3284ab3f</id>
       <masked>false</masked>

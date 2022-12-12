@@ -10,17 +10,24 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;filePath&quot;: &quot;C:\\Users\\AIDA\\Downloads\\nature-gccabd0ade_1920.jpg&quot;,
-  &quot;fileSize&quot;: 573429,
-  &quot;contentType&quot;: &quot;image/jpeg&quot;
+  &quot;contentType&quot;: &quot;multipart/form-data&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;photo&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\AIDA\\Downloads\\natur.jpg&quot;,
+      &quot;type&quot;: &quot;File&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    }
+  ]
 }</httpBodyContent>
-   <httpBodyType>file</httpBodyType>
+   <httpBodyType>form-data</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value></value>
+      <value>multipart/form-data</value>
       <webElementGuid>b7212f7e-0c6b-4df6-b109-75a14107c080</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
@@ -35,7 +42,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/users/profile-photo/14</restUrl>
+   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/profile/photo</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

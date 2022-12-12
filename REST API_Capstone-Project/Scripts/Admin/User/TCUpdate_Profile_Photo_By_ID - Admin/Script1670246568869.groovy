@@ -16,4 +16,34 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonSlurper as JsonSlurper
 
+
+// login dulu, ambil token
+response = WS.sendRequest(findTestObject('Object Repository/Admin/Auth/Login/TCLogin_01'), FailureHandling.CONTINUE_ON_FAILURE)
+
+JsonSlurper slurper = new JsonSlurper()
+Map parsedJson = slurper.parseText(response.getResponseText())
+String Token = parsedJson.access_token
+GlobalVariable.globalAdminToken = Token
+
+// hit endpoint
+
+response = WS.sendRequest(findTestObject('Object Repository/Admin/User/PUT - Update Profile Photo By ID/TCUpdate_Profile_Photo_By_ID_01'))
+WS.verifyResponseStatusCode(response, 200)
+
+response = WS.sendRequest(findTestObject('Object Repository/Admin/User/PUT - Update Profile Photo By ID/TCUpdate_Profile_Photo_By_ID_02'))
+WS.verifyResponseStatusCode(response, 400)
+//
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/PUT - Update Profile Photo By ID/TCUpdate_Profile_Photo_By_ID_03'))
+//WS.verifyResponseStatusCode(response, 400)
+//
+response = WS.sendRequest(findTestObject('Object Repository/Admin/User/PUT - Update Profile Photo By ID/TCUpdate_Profile_Photo_By_ID_04'))
+WS.verifyResponseStatusCode(response, 405)
+
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/PUT - Update Profile Photo By ID/TCUpdate_Profile_Photo_By_ID_05'))
+//WS.verifyResponseStatusCode(response, 405)
+//
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/PUT - Update Profile Photo By ID/TCUpdate_Profile_Photo_By_ID_06'))
+//WS.verifyResponseStatusCode(response, 405)
+//

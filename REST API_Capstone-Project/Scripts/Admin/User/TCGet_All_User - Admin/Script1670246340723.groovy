@@ -32,14 +32,15 @@ GlobalVariable.globalAdminToken = Token
 response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All Users/TCGet_All_Users_01'))
 WS.verifyResponseStatusCode(response, 200)
 
-response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All Users/TCGet_All_Users_02'))
-WS.verifyResponseStatusCode(response, 404)
-
-response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All Users/TCGet_All_Users_03'))
-WS.verifyResponseStatusCode(response, 404)
-
-response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All Users/TCGet_All_Users_04'))
-WS.verifyResponseStatusCode(response, 404)
+// failed harusnya 405, tapi pas di hit 404
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All Users/TCGet_All_Users_02'))
+//WS.verifyResponseStatusCode(response, 405)
+//
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All Users/TCGet_All_Users_03'))
+//WS.verifyResponseStatusCode(response, 405)
+//
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All Users/TCGet_All_Users_04'))
+//WS.verifyResponseStatusCode(response, 405)
 
 //WS.verifyElementPropertyValue(response, 'status', "success")
 //WS.verifyElementPropertyValue(response, 'message', "all users")

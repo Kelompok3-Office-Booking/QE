@@ -31,4 +31,19 @@ response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PU
 WS.verifyResponseStatusCode(response, 200)
 
 response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Photo/TCUpdate_Profile_Photo_02'))
-WS.verifyResponseStatusCode(response, 404)
+WS.verifyResponseStatusCode(response, 400)
+
+response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Photo/TCUpdate_Profile_Photo_03'))
+WS.verifyResponseStatusCode(response, 400)
+
+response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Photo/TCUpdate_Profile_Photo_04'))
+WS.verifyResponseStatusCode(response, 400)
+
+response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Photo/TCUpdate_Profile_Photo_05'))
+WS.verifyResponseStatusCode(response, 405)
+
+response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Photo/TCUpdate_Profile_Photo_06'))
+WS.verifyResponseStatusCode(response, 405)
+
+response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Photo/TCUpdate_Profile_Photo_07'))
+WS.verifyResponseStatusCode(response, 405)

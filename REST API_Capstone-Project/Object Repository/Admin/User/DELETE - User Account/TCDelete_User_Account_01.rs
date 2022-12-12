@@ -23,7 +23,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/users/20</restUrl>
+   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/users/9</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ2IiwiZXhwIjoxNjcwNDIxNTAwLCJyb2xlcyI6InVzZXIifQ.vIr9M3GEO5F0VmDQZuEi-Sx67QbCYdhMquTGgbbDEco'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMSIsImV4cCI6MTY3MDg1MDk0NCwicm9sZXMiOiJ1c2VyIn0.kthNluHgTxzL6Q1YjLxyN_zlJVc5_FcmrpjHdgjE_kU'</initValue>
       <name>globalUserToken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYiLCJleHAiOjE2NzAzNDg1MDUsInJvbGVzIjoiYWRtaW4ifQ.FLKarSgma53NKfZr1kiTVgQ3xIdmwQJJr0YXij-cWAI'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYiLCJleHAiOjE2NzA4NTMwMDUsInJvbGVzIjoiYWRtaW4ifQ.8-YlPWv50J_r0-HapUSw4fSkrzseIM1f7Fl-o7t8Zak'</initValue>
       <name>globalAdminToken</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

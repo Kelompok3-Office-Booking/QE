@@ -14,8 +14,8 @@
   &quot;charset&quot;: &quot;UTF-8&quot;,
   &quot;parameters&quot;: [
     {
-      &quot;name&quot;: &quot;pict&quot;,
-      &quot;value&quot;: &quot;C:\\Users\\AIDA\\Downloads\\nature-gccabd0ade_1920.jpg&quot;,
+      &quot;name&quot;: &quot;photo&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\AIDA\\Downloads\\natur.jpg&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -42,7 +42,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/user/profile-photo/21</restUrl>
+   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/users/photo/21</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

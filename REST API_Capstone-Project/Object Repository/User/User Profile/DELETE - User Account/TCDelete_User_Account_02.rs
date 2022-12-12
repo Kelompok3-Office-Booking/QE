@@ -3,7 +3,7 @@
    <description></description>
    <name>TCDelete_User_Account_02</name>
    <tag></tag>
-   <elementGuidId>cf9744b0-5cd1-4710-87eb-7be598be5da1</elementGuidId>
+   <elementGuidId>da66f3d9-dab9-4fef-a58b-33ac62e139bc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -22,7 +22,7 @@
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>DELETE</restRequestMethod>
+   <restRequestMethod>GET</restRequestMethod>
    <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/profile</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>

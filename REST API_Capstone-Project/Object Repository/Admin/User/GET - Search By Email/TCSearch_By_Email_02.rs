@@ -23,7 +23,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/user?email=muhammadbayu3@gmail.com</restUrl>
+   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/admin/users/email?search=selena9@gmail.com</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

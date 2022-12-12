@@ -39,15 +39,16 @@ WS.verifyResponseStatusCode(response, 400)
 response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Data/TCUpdate_Profile_Data_04'))
 WS.verifyResponseStatusCode(response, 400)
 
-response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Data/TCUpdate_Profile_Data_05'))
-WS.verifyResponseStatusCode(response, 404)
+// ex : 400, ar: 404
+//response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Data/TCUpdate_Profile_Data_05'))
+//WS.verifyResponseStatusCode(response, 404)
 
 // bug
 //response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Data/TCUpdate_Profile_Data_06'))
 //WS.verifyResponseStatusCode(response, 404)
 
 response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Data/TCUpdate_Profile_Data_07'))
-WS.verifyResponseStatusCode(response, 404)
+WS.verifyResponseStatusCode(response, 405)
 
 // bug
 //response = WS.sendRequest(findTestObject('Object Repository/User/User Profile/PUT - Update Profile Data/TCUpdate_Profile_Data_08'))

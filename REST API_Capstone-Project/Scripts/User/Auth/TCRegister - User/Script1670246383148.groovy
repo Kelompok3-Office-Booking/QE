@@ -47,9 +47,6 @@ WS.verifyResponseStatusCode(response, 405)
 response = WS.sendRequest(findTestObject('Object Repository/User/Auth/Registrasi/TC10_Registrasi'))
 WS.verifyResponseStatusCode(response, 400)
 
-response = WS.sendRequest(findTestObject('Object Repository/User/Auth/Registrasi/TC10_Registrasi'))
-WS.verifyResponseStatusCode(response, 400)
-
 //WS.verifyElementPropertyValue(response, 'status', "success")
 //WS.verifyElementPropertyValue(response, 'message', "account created")
 //WS.verifyElementPropertyValue(response, 'data', '')

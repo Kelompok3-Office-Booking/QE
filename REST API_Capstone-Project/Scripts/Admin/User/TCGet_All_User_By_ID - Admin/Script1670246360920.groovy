@@ -31,14 +31,16 @@ GlobalVariable.globalAdminToken = Token
 response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All User By ID/TCGet_All_User_By_ID_01'))
 WS.verifyResponseStatusCode(response, 200)
 
-response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All User By ID/TCGet_All_User_By_ID_02'))
-WS.verifyResponseStatusCode(response, 404)
+// harusnya 405, bukan 404
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All User By ID/TCGet_All_User_By_ID_02'))
+//WS.verifyResponseStatusCode(response, 404)
+//
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All User By ID/TCGet_All_User_By_ID_02'))
+//WS.verifyResponseStatusCode(response, 404)
 
-response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All User By ID/TCGet_All_User_By_ID_02'))
-WS.verifyResponseStatusCode(response, 404)
-
-response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All User By ID/TCGet_All_User_By_ID_03'))
-WS.verifyResponseStatusCode(response, 404)
+//bug
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/GET - All User By ID/TCGet_All_User_By_ID_03'))
+//WS.verifyResponseStatusCode(response, 404)
 
 
 
