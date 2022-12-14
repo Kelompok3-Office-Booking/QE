@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYiLCJleHAiOjE2NzA4NTMwMDUsInJvbGVzIjoiYWRtaW4ifQ.8-YlPWv50J_r0-HapUSw4fSkrzseIM1f7Fl-o7t8Zak'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYiLCJleHAiOjE2NzA5MDk2MjgsInJvbGVzIjoiYWRtaW4ifQ.R3wTz9A3w5EylxLBnRTZSJ_3IQ0as0MSx1CggnlMLKs'</initValue>
       <name>globalAdminToken</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
