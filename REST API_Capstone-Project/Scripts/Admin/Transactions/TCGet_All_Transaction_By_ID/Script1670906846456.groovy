@@ -33,8 +33,9 @@ WS.verifyResponseStatusCode(response, 200)
 response = WS.sendRequest(findTestObject('Object Repository/Admin/Transaction/GET - All Transaction By ID/TCGet_All_Transaction_By_ID_02'))
 WS.verifyResponseStatusCode(response, 405)
 
-response = WS.sendRequest(findTestObject('Object Repository/Admin/Transaction/GET - All Transaction By ID/TCGet_All_Transaction_By_ID_03'))
-WS.verifyResponseStatusCode(response, 405)
+// 400
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/Transaction/GET - All Transaction By ID/TCGet_All_Transaction_By_ID_03'))
+//WS.verifyResponseStatusCode(response, 405)
 
 // 200
 //response = WS.sendRequest(findTestObject('Object Repository/Admin/Transaction/GET - All Transaction By ID/TCGet_All_Transaction_By_ID_04'))

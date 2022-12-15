@@ -27,8 +27,8 @@ String Token = parsedJson.access_token
 GlobalVariable.globalAdminToken = Token
 
 // hit endpoint
-response = WS.sendRequest(findTestObject('Object Repository/Admin/Offices/DELETE - Delete Offices/TCDelete_Offices_01'))
-WS.verifyResponseStatusCode(response, 200)
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/Offices/DELETE - Delete Offices/TCDelete_Offices_01'))
+//WS.verifyResponseStatusCode(response, 200)
 
 response = WS.sendRequest(findTestObject('Object Repository/Admin/Offices/DELETE - Delete Offices/TCDelete_Offices_02'))
 WS.verifyResponseStatusCode(response, 405)

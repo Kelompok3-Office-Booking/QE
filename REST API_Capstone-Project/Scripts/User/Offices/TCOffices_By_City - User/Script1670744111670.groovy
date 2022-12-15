@@ -30,3 +30,12 @@ GlobalVariable.globalUserToken = Token
 response = WS.sendRequest(findTestObject('Object Repository/User/Offices/GET - Office By City/TCGet_Offices_By_City_01'))
 WS.verifyResponseStatusCode(response, 200)
 
+response = WS.sendRequest(findTestObject('Object Repository/User/Offices/GET - Office By City/TCGet_Offices_By_City_02'))
+WS.verifyResponseStatusCode(response, 405)
+
+response = WS.sendRequest(findTestObject('Object Repository/User/Offices/GET - Office By City/TCGet_Offices_By_City_03'))
+WS.verifyResponseStatusCode(response, 405)
+
+response = WS.sendRequest(findTestObject('Object Repository/User/Offices/GET - Office By City/TCGet_Offices_By_City_04'))
+WS.verifyResponseStatusCode(response, 405)
+

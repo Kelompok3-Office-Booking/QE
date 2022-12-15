@@ -63,7 +63,7 @@
     },
     {
       &quot;name&quot;: &quot;status&quot;,
-      &quot;value&quot;: &quot;&quot;,
+      &quot;value&quot;: &quot;pending&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }

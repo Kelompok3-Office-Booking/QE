@@ -60,6 +60,12 @@
       &quot;value&quot;: &quot;BCA&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;status&quot;,
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
     }
   ]
 }</httpBodyContent>

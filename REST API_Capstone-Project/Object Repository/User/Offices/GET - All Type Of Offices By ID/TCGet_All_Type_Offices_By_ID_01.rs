@@ -23,7 +23,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/offices/12</restUrl>
+   <restUrl>https://api-better-space-staging.herokuapp.com/api/v1/offices/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -30,8 +30,8 @@ GlobalVariable.globalAdminToken = Token
 
 // hit endpoint
 
-response = WS.sendRequest(findTestObject('Object Repository/Admin/User/DELETE - User Account/TCDelete_User_Account_01'))
-WS.verifyResponseStatusCode(response, 200)
+//response = WS.sendRequest(findTestObject('Object Repository/Admin/User/DELETE - User Account/TCDelete_User_Account_01'))
+//WS.verifyResponseStatusCode(response, 200)
 
 response = WS.sendRequest(findTestObject('Object Repository/Admin/User/DELETE - User Account/TCDelete_User_Account_02'))
 WS.verifyResponseStatusCode(response, 404)
